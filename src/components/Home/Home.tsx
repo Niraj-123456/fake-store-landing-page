@@ -4,6 +4,8 @@ import HeroSection from "../HeroSection/HeroSection";
 import FeaturedProducts from "../Products/FeaturedProducts/FeaturedProducts";
 import WhatWeOffer from "../WhatWeOffer/WhatWeOffer";
 import Faq from "../Faq/Faq";
+import Testimonials from "../Testimonials/Testimonials";
+import LogoCloud from "../LogoCloud/LogoCloud";
 
 const Home = () => {
   const [lastScrollTop, setLastScrollTop] = useState(0);
@@ -37,7 +39,9 @@ const Home = () => {
       <FeaturedProducts />
       <About />
       <WhatWeOffer />
+      <Testimonials />
       <Faq />
+      <LogoCloud />
     </>
   );
 };
