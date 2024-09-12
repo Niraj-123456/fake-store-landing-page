@@ -1,3 +1,5 @@
+import { Button } from "../ui/button";
+
 const Footer = () => {
   return (
     <footer className="bg-[#e25b39] mt-12" aria-labelledby="footer-heading">
@@ -194,12 +196,12 @@ const Footer = () => {
               placeholder="Enter your email"
             />
             <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-              <button
+              <Button
                 type="submit"
-                className="flex w-full items-center justify-center rounded-md bg-primary px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-primary/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                className="flex w-full items-center justify-center rounded-md px-3 py-2 text-sm font-semibold shadow-sm hover:bg-primary/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 Subscribe
-              </button>
+              </Button>
             </div>
           </form>
         </div>
