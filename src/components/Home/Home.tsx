@@ -3,6 +3,7 @@ import About from "../About/About";
 import HeroSection from "../HeroSection/HeroSection";
 import FeaturedProducts from "../Products/FeaturedProducts/FeaturedProducts";
 import WhatWeOffer from "../WhatWeOffer/WhatWeOffer";
+import Faq from "../Faq/Faq";
 
 const Home = () => {
   const [lastScrollTop, setLastScrollTop] = useState(0);
@@ -36,6 +37,7 @@ const Home = () => {
       <FeaturedProducts />
       <About />
       <WhatWeOffer />
+      <Faq />
     </>
   );
 };
